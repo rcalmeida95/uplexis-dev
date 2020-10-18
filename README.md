@@ -14,10 +14,10 @@ Quest MultiMarcas (https://www.questmultimarcas.com.br/estoque) e capturar os da
 Os dados capturados são tratados por meio de regex e funcões de manipulação em string. os artigos tratados são inseridos no banco de dados na TABELA DE ARTIGOS.
 Após cadastrado é informado ao usuário que tudo foi inserido corretamente no banco e o usuário tem uma opção na barra de menu para listar os artigos ou veículos.</p>
 
-- Tela de Listagem ou exibição de veículos
-    -Exibir todos veículos cadastrados com todas as devidas informações listadas em uma tela e uma opção para excluir um veículo do banco.
-Tela de detalhes
-    - Exibir de forma detalhada e individual um veículo.
+- Tela de Listagem ou exibição de veículos.
+- Exibir todos veículos cadastrados com todas as devidas informações listadas em uma tela e uma opção para excluir um veículo do banco.
+
+- Exibir de forma detalhada e individual um veículo.
 - Todas as ações feitas no sistema são através de um usuário logado.
 
 
@@ -92,16 +92,18 @@ Modificar as linhas abaixo, para o nome de sua base de dados, seu usuário de ac
 
     C:\wamp64\bin\php\php7.3.21\cacert.pem
 
+26 - Após realizado todos os passo o sistema já estará pronto para uso.
+
 ## Como Utilizar o SISTEMA
 
 
-colocar no navegador a url composta por localhost/uplexis-dev/public.
+Colocar no navegador a url composta por localhost/uplexis-dev/public.
 
 
-Dados para o LOGIN:
+    Dados para o LOGIN:
 
-nome: admin
-senha: admin
+    nome: admin
+    senha: admin
 
 O login estando correto você será redirecionado para tela de captura onde você ira colocar um termo no campo de texto, por exemplo a marca: "audi". Após inserir clicar em botão capturar e aguardar o sistema verificar a requisição e fazer a inserção dos dados no banco, ao final ele retornará uma mensagem sobre a situação da captura.
 
