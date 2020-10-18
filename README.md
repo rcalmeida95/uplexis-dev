@@ -7,19 +7,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Sobre o que se trata o sistema
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-Esse App consistem em um sistema simples que tem como intuito  realizar uma requisição via CURL com PHP ao site
+Quest MultiMarcas (https://www.questmultimarcas.com.br/estoque) e capturar os dados dos veículos retornados na busca  a partir de um termo de captura.
+Os dados capturados são tratados por meio de regex e funcões de manipulação em string. os artigos tratados são inseridos no banco de dados na TABELA DE ARTIGOS.
+Após cadastrado é informado ao usuário que tudo foi inserido corretamente no banco e o usuário tem uma opção na barra de menu para listar os artigos ou veículos.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tela de Listagem ou exibição de veículos
+
+ -Exibir todos veículos cadastrados com todas as devidas informações listadas em uma tela e uma opção para excluir um veículo do banco.
+
+
+
+## Tela de detalhes
+
+-Exibir de forma detalhada e individual um veículo.
+
+
+## Todas as ações feitas no sistema são através de um usuário logado.
+
+
+
+
+
 
 ## Learning Laravel
 
