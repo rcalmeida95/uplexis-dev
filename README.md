@@ -57,7 +57,7 @@ Tela de detalhes
 
 16- Crie um novo arquivo <b>.env</b> e cole todo conteúdo do arquivo anterior.
 
-17- substitua os valores das variaveis 	
+17- substitua os valores das variaveis de acordo com as linha abaixo:
 
 Modificar linha
 
