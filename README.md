@@ -49,7 +49,7 @@ Tela de detalhes
 
 12- Entre nessa pasta projetos que você acabou de criar  e abra o powershell.
 
-13- rode o comando  git clone https://github.com/rcalmeida95/uplexis-dev.git para  clonar.
+13- Execute o comando  <b>"git clone https://github.com/rcalmeida95/uplexis-dev.git "</b> para  clonar.
 
 14- abra a pasta do projeto no seu editor de preferência.
 
