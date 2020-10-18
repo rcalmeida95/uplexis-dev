@@ -74,31 +74,23 @@ Modificar as linhas abaixo, para o nome de sua base de dados, seu usuário de ac
 
 
 
-18- Va no seu powershell e rode o comando composer install
+18- Volte ao  seu powershell e execute o comando <b>'composer install"</b>
 
-19- rode o comando php artisan key:generate
+19- Logo após execute o comando <b>"php artisan key:generate"</b>
 
-20- va no seu navegador e coloque localhost/projetos/uplexis-dev/public/
+20- Abra o seu navegador e coloque a seguinte url: <b>"localhost/projetos/uplexis-dev/public/"</b>
 
-21- rode no powershell php artisan migrate 
+21- Volte ao powershell e execute o comando <b>"php artisan migrate"</b>
 
-22- rode no powershell php artisan migrate:seed
+22- Execute no powershell o comando <b>"php artisan migrate:seed"</b>
 
-23- faça o download do arquivo cacert.perm no link http://curl.haxx.se/ca/cacert.pem
+23- Faça o download do arquivo <b>"cacert.perm"</b> no link: http://curl.haxx.se/ca/cacert.pem
 
-24- coloque o arquivo no diretorio C:\wamp64\bin\php\versão_php_em_uso
+24- coloque o arquivo no diretorio <b>"C:\wamp64\bin\php\versão_php_em_uso"</b> se atente a colocar na pasta da versão do PHP que você está utilizando.
 
-25- remova o ponto e virgula de ";curl.cainfo" = e coloque esse valor após o igual C:\wamp64\bin\php\php7.3.21\cacert.pem
+25- Abra o arquivo php.ini pelo wamp da versão que você está utilizando e  remova o ponto e virgula de ";curl.cainfo="  e coloque o conteúdo abaixo após o  caracter de igual 
 
-
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
+    C:\wamp64\bin\php\php7.3.21\cacert.pem
 
 ## Como Utilizar o SISTEMA
 
