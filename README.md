@@ -9,7 +9,7 @@
 
 ## Sobre o que se trata o sistema
 
-<p style="text-align=justify">-Esse App consiste em um sistema simples que tem como intuito  realizar uma requisição via CURL com PHP ao site
+<p style="text-align=justify">Esse App consiste em um sistema simples que tem como intuito  realizar uma requisição via CURL com PHP ao site
 Quest MultiMarcas (https://www.questmultimarcas.com.br/estoque) e capturar os dados dos veículos retornados na busca  a partir de um termo de captura.
 Os dados capturados são tratados por meio de regex e funcões de manipulação em string. os artigos tratados são inseridos no banco de dados na TABELA DE ARTIGOS.
 Após cadastrado é informado ao usuário que tudo foi inserido corretamente no banco e o usuário tem uma opção na barra de menu para listar os artigos ou veículos.</p>
@@ -26,13 +26,13 @@ Após cadastrado é informado ao usuário que tudo foi inserido corretamente no 
 
 1- Instale o wampserve na versão do seu Sistesma Operacional.
 
-2- clicar na opção baixar diretamente
+2- Clicar na opção baixar diretamente
 
 3- Download ultima versão do WampServer
 
 4- Durante a instalação do wamp selecione a versão mais recente do PHP 7.2.33 e a versão mais recente do mysql 8.0.21.
 
-5- NA instalaçao do wamp ele irá pedir qual browser e qual editor de código você irá utilizar.
+5- Na instalaçao do wamp ele irá pedir qual browser e qual editor de código você irá utilizar.
 
 6 - Criar no navegador e coloque localhost/phpmyadmin po padrão o usuario é root e a senha deixa em branco.
 
@@ -51,13 +51,13 @@ Após cadastrado é informado ao usuário que tudo foi inserido corretamente no 
 
 13- Execute o comando  <b>"git clone https://github.com/rcalmeida95/uplexis-dev.git "</b> para  clonar.
 
-14- abra a pasta do projeto no seu editor de preferência.
+14- Abra a pasta do projeto no seu editor de preferência.
 
 15- Localize  arquivo <b>".env-example"</b> e copie todo o seu conteúdo.
 
 16- Crie um novo arquivo <b>.env</b> e cole todo conteúdo do arquivo anterior.
 
-17- substitua os valores das variaveis de acordo com as linha abaixo:
+17- Substitua os valores das variaveis de acordo com as linha abaixo:
 
 Modificar linha
 
@@ -86,7 +86,7 @@ Modificar as linhas abaixo, para o nome de sua base de dados, seu usuário de ac
 
 23- Faça o download do arquivo <b>"cacert.perm"</b> no link: http://curl.haxx.se/ca/cacert.pem
 
-24- coloque o arquivo no diretorio <b>"C:\wamp64\bin\php\versão_php_em_uso"</b> se atente a colocar na pasta da versão do PHP que você está utilizando.
+24- Coloque o arquivo no diretorio <b>"C:\wamp64\bin\php\versão_php_em_uso"</b> se atente a colocar na pasta da versão do PHP que você está utilizando.
 
 25- Abra o arquivo php.ini pelo wamp da versão que você está utilizando e  remova o ponto e virgula de ";curl.cainfo="  e coloque o conteúdo abaixo após o  caracter de igual 
 
