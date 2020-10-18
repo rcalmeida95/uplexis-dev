@@ -97,7 +97,7 @@ Modificar as linhas abaixo, para o nome de sua base de dados, seu usuário de ac
 ## Como Utilizar o SISTEMA
 
 
-Colocar no navegador a url composta por localhost/uplexis-dev/public.
+Colocar no navegador a url composta por http://localhost/uplexis-dev/public.
 
 
     Dados para o LOGIN:
