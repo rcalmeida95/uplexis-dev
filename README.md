@@ -9,10 +9,10 @@
 
 ## Sobre o que se trata o sistema
 
--Esse App consistem em um sistema simples que tem como intuito  realizar uma requisição via CURL com PHP ao site
+<p style="text-align=justify">-Esse App consiste em um sistema simples que tem como intuito  realizar uma requisição via CURL com PHP ao site
 Quest MultiMarcas (https://www.questmultimarcas.com.br/estoque) e capturar os dados dos veículos retornados na busca  a partir de um termo de captura.
 Os dados capturados são tratados por meio de regex e funcões de manipulação em string. os artigos tratados são inseridos no banco de dados na TABELA DE ARTIGOS.
-Após cadastrado é informado ao usuário que tudo foi inserido corretamente no banco e o usuário tem uma opção na barra de menu para listar os artigos ou veículos.
+Após cadastrado é informado ao usuário que tudo foi inserido corretamente no banco e o usuário tem uma opção na barra de menu para listar os artigos ou veículos.</p>
 
 - Tela de Listagem ou exibição de veículos
     -Exibir todos veículos cadastrados com todas as devidas informações listadas em uma tela e uma opção para excluir um veículo do banco.
