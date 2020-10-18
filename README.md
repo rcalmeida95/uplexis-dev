@@ -33,7 +33,28 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Como Utilizar o SISTEMA
+
+
+colocar no navegador a url composta por localhost/uplexis-dev/public.
+
+
+Dados para o LOGIN:
+
+nome: admin
+senha: admin
+
+O login estando correto você será redirecionado para tela de captura onde você ira colocar um termo no campo de texto, por exemplo a marca: "audi". Após inserir clicar em botão capturar e aguardar o sistema verificar a requisição e fazer a inserção dos dados no banco, ao final ele retornará uma mensagem sobre a situação da captura.
+
+
+Após inserido você terá a opção de ir para tela listar de artigos, tanto pelo botão ao lado do botão de captura, quanto pela barra de  menu na opção Arigos, ao clicar você terá uma lista de tudo que está cadastrado. Nessa tela você poderá filtrar pelo nome do veículo, ver os detalhes e excluir um veículo.
+
+
+Ao clicar na opção de detalhes você será redirecionado para uma nova tela que mostrará a exibição do produto de forma individual
+Ao clicar na opção deletar você removerá do banco o registro em questão.
+
+
+
 
 ### Premium Partners
 
