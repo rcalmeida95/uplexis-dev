@@ -34,9 +34,9 @@ Tela de detalhes
 
 5- NA instalaçao do wamp ele irá pedir qual browser e qual editor de código você irá utilizar.
 
-6 - va no navegador e coloque localhost/phpmyadmin po padrão o usuario é root e a senha deixa em branco.
+6 - Criar no navegador e coloque localhost/phpmyadmin po padrão o usuario é root e a senha deixa em branco.
 
-7 - criar database com  nome uplexis e collation utf8mb4_general_ci.
+7 - Criar database com  nome uplexis e collation utf8mb4_general_ci.
 
 8- Ir no site do laravel observar que está versão 8 e realizar download do composer https://getcomposer.org/download/.
 
@@ -45,12 +45,11 @@ Tela de detalhes
 10- Marque a opção ADDPATH.
 
 
-11- Var no diretorio de instalação do wamp, na pasta www, crie um projetos.
+11- Criar no diretorio de instalação do wamp, na pasta www, crie pasta com o nome  projetos.
 
-12- entre nessa pasta e abra o powershell.
+12- Entre nessa pasta projetos que você acabou de criar  e abra o powershell.
 
-13- entre na pasta que você acabou de clonar.
-
+13- rode o comando  git clone https://github.com/rcalmeida95/uplexis-dev.git para  clonar.
 
 14- abra a pasta do projeto no seu editor de preferência.
 
@@ -72,7 +71,7 @@ Modificar as linhas abaixo, para o nome de sua base de dados, seu usuário de ac
 	DB_PASSWORD=
 
 
-https://github.com/rcalmeida95/
+
 
 18- Va no seu powershell e rode o comando composer install
 
