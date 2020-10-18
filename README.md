@@ -78,7 +78,7 @@ Modificar as linhas abaixo, para o nome de sua base de dados, seu usuário de ac
 
 19- Logo após execute o comando <b>"php artisan key:generate"</b>
 
-20- Abra o seu navegador e coloque a seguinte url: <b>"localhost/projetos/uplexis-dev/public/"</b>
+20- Abra o seu navegador e coloque a seguinte url: <b>"http://localhost/projetos/uplexis-dev/public/"</b>
 
 21- Volte ao powershell e execute o comando <b>"php artisan migrate"</b>
 
