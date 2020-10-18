@@ -53,13 +53,14 @@ Tela de detalhes
 
 14- abra a pasta do projeto no seu editor de preferência.
 
-15- copie todo o conteudo do arquivo .env-example.
+15- Localize  arquivo <b>".env-example"</b> e copie todo o seu conteúdo.
 
-16- crie um arquivo.env e cole todo conteúdo.
+16- Crie um novo arquivo <b>.env</b> e cole todo conteúdo do arquivo anterior.
 
 17- substitua os valores das variaveis 	
 
 Modificar linha
+
 	APP_URL=http://localhost
 	Para a url do projeto seguindo do diretório public
 	APP_URL=http://localhost/projetos/uplexis/public/
