@@ -21,7 +21,74 @@ Tela de detalhes
 - Todas as ações feitas no sistema são através de um usuário logado.
 
 
+## PASSO A PASSO PARA INSTALAÇÃO E USO SISTEMA
 
+
+1- Instale o wampserve na versão do seu Sistesma Operacional.
+
+2- clicar na opção baixar diretamente
+
+3- Download ultima versão do WampServer
+
+4- Durante a instalação do wamp selecione a versão mais recente do PHP 7.2.33 e a versão mais recente do mysql 8.0.21.
+
+5- NA instalaçao do wamp ele irá pedir qual browser e qual editor de código você irá utilizar.
+
+6 - va no navegador e coloque localhost/phpmyadmin po padrão o usuario é root e a senha deixa em branco.
+
+7 - criar database com  nome uplexis e collation utf8mb4_general_ci.
+
+8- Ir no site do laravel observar que está versão 8 e realizar download do composer https://getcomposer.org/download/.
+
+9- No momento da instalação do composer selecione a versão do PHP instalada no wamp.
+
+10- Marque a opção ADDPATH.
+
+
+11- Var no diretorio de instalação do wamp, na pasta www, crie um projetos.
+
+12- entre nessa pasta e abra o powershell.
+
+13- entre na pasta que você acabou de clonar.
+
+
+14- abra a pasta do projeto no seu editor de preferência.
+
+15- copie todo o conteudo do arquivo .env-example.
+
+16- crie um arquivo.env e cole todo conteúdo.
+
+17- substitua os valores das variaveis 	
+
+Modificar linha
+	APP_URL=http://localhost
+	Para a url do projeto seguindo do diretório public
+	APP_URL=http://localhost/projetos/uplexis/public/
+
+Modificar as linhas abaixo, para o nome de sua base de dados, seu usuário de acesso e sua senha de acesso ao mysql.
+	
+	DB_DATABASE=uplexis
+	DB_USERNAME=root
+	DB_PASSWORD=
+
+
+https://github.com/rcalmeida95/
+
+18- Va no seu powershell e rode o comando composer install
+
+19- rode o comando php artisan key:generate
+
+20- va no seu navegador e coloque localhost/projetos/uplexis-dev/public/
+
+21- rode no powershell php artisan migrate 
+
+22- rode no powershell php artisan migrate:seed
+
+23- faça o download do arquivo cacert.perm no link http://curl.haxx.se/ca/cacert.pem
+
+24- coloque o arquivo no diretorio C:\wamp64\bin\php\versão_php_em_uso
+
+25- remova o ponto e virgula de ";curl.cainfo" = e coloque esse valor após o igual C:\wamp64\bin\php\php7.3.21\cacert.pem
 
 
 
@@ -54,33 +121,3 @@ Ao clicar na opção de detalhes você será redirecionado para uma nova tela qu
 Ao clicar na opção deletar você removerá do banco o registro em questão.
 
 
-
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
