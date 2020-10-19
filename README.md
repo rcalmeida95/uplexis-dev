@@ -81,7 +81,7 @@ Modificar as linhas abaixo, para o nome de sua base de dados, seu usuário de ac
 
 21- Volte ao powershell e execute o comando <b>"php artisan migrate"</b>
 
-22- Execute no powershell o comando <b>"php artisan migrate:seed"</b>
+22- Execute no powershell o comando <b>"php artisan migrate:refresh --seed "</b>
 
 23- Faça o download do arquivo <b>"cacert.perm"</b> no link: http://curl.haxx.se/ca/cacert.pem
 
